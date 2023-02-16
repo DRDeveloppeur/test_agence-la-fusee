@@ -22,7 +22,9 @@ export const Welcome = ({ user }) => {
 				<p>
 					Votre token est le suivant :
 				</p>
-				<Alert severity="success">{localStorage.token}</Alert>
+				<div className="col">
+					<Alert severity="success">{localStorage.token}</Alert>
+				</div>
 			</div>
 
 			<p align="center" className='mb-6'>

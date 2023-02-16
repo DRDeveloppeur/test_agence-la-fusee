@@ -12,9 +12,9 @@
 
 > Ensuite, toujour dans le dossier "/server" on crée la base de donée et sa structure, on crée le premier user et on génere le token jwt avec les commandes : 
 
-1. ``` symfony d:d:c ```
-2. ``` symfony make:migration ```
-3. ``` symfony d:m:m ```
+1. ``` symfony console d:d:c ```
+2. ``` symfony console make:migration ``` 
+3. ``` symfony console d:m:m ```
 3. ``` symfony console doctrine:fixtures:load ```
 3. ``` symfony console lexik:jwt:generate-keypair ``` "openSSL requis pour cette action"
 
