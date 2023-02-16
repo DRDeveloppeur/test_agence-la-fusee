@@ -1,0 +1,15 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.home .about h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home .about p {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.home form {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
